@@ -1,0 +1,52 @@
+body {
+    background-image: linear-gradient(to left, rgb(171, 171, 248), rgb(248, 178, 248));
+}
+.halaman {
+    width: 100%;
+    margin: auto;
+}
+nav {
+    background-color: black;
+    width: 100%;
+    display: inline-block;
+}
+nav ul {
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+}
+nav ul li {
+    float: left;
+    text-align: center;
+    background-color: black;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 20px;
+    line-height: 60px;
+    display: block;
+}
+nav a:hover {
+    background-color: beige;
+    color: black;
+}
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 60px;
+}
+nav ul li:hover > ul {
+    display: block;
+}
+nav ul ul li {
+    width: 180px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+nav ul ul ul li {
+    left: 180px;
+    top: -60px;
+    position: relative;
+}
